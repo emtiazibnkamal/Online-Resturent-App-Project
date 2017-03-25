@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_rslt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Result="
+        android:textSize="20dp"
+        android:layout_below="@+id/et2"
+        />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        />
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et1"
+        android:inputType="numberDecimal"
+        />
+
+    <LinearLayout
+        android:id="@+id/ly1"
+        android:layout_below="@+id/tv_rslt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+        <Button
+            android:id="@+id/bt_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+        <Button
+            android:id="@+id/bt_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"/>
+        <Button
+            android:id="@+id/bt_divition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ly2"
+        android:layout_below="@+id/ly1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_addmemory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M+"/>
+        <Button
+            android:id="@+id/bt_removememory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M-"/>
+        <Button
+            android:id="@+id/bt_showmemory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MR"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Resturent</string>
+
+    <string-array name="food_string_name">
+        <item> chilis</item>
+        <item>Barger</item>
+        <item>Chicken Masala</item>
+        <item>Chicken Ginger</item>
+        <item>Hidrabadi Birani</item>
+        <item> Birani</item>
+        <item>kabab</item>
+        <item>new dish</item>
+    </string-array>
+
+
+    <string-array name="string_price">
+        <item>100tk</item>
+        <item>50tk</item>
+        <item>200tk</item>
+        <item>250tk</item>
+        <item>70tk</item>
+        <item>300tk</item>
+        <item>100tk</item>
+        <item>246tk</item>
+    </string-array>
+</resources>
